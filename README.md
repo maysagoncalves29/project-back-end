@@ -1,26 +1,39 @@
-#Criar o package.json:
+# Criar o package.json:
+
 - npm init -y
+
 - yarn init -y
 
-#Instalar o typescript:
+# Instalar o typescript:
+
 yarn add typescript -D
+
 npm add typescript -D (dependencia de desenvolvimento)
 
-#Instalar o express
+# Instalar o express
+
 yarn add express
+
 npm add express
+
 npm add @types/express -D (autocomplit)
 
-#inicializar typescript
+# Inicializar typescript
+
 yarn tsc --init
 
-#instalação do prisma
+# Instalação do prisma
 
 yarn add prisma
+
 yarn add @prisma/client
+
 npx prisma init
 
-#Biblioteca para criptografa a senha do usuário:
+# Biblioteca para criptografa a senha do usuário:
+
 yarn add bcryptjs
+
 yarn add @types/bcryptjs -D
+
 -- Para verificar se a senha está correta importar no auth: import { compare } from "bcryptjs";
