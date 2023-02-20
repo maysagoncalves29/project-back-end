@@ -2,13 +2,15 @@
 - npm init -y
 - yarn init -y
 
-# Instalar o typescript:
+#Instalar o typescript:
 yarn add typescript -D
 npm add typescript -D (dependencia de desenvolvimento)
+
 #Instalar o express
 yarn add express
 npm add express
 npm add @types/express -D (autocomplit)
+
 #inicializar typescript
 yarn tsc --init
 
