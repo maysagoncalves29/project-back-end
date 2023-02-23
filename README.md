@@ -1,4 +1,4 @@
-# Geral de instação de dependências:
+# Geral de instalação de dependências:
 ![MinionsGIF](https://user-images.githubusercontent.com/89320151/221033260-aa49bc4d-a43d-4902-a903-b3f3bc9e8dea.gif)
 
 
