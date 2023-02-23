@@ -22,3 +22,15 @@ npx prisma init
 yarn add bcryptjs
 yarn add @types/bcryptjs -D
 -- Para verificar se a senha está correta importar no auth: import { compare } from "bcryptjs";
+
+# Autenticando com JWT
+
+yarn add @types/jsonwebtoken -D
+yarn add dotenv
+OBS: AuthUserController = erro no process.env.JWT_SECRET, typescript não aceita quando deixa estrito p/ fazer tipagem. Pode-se se desabalitar no tsconfig mudando de true para false. ex: "strict": false.
+
+Caso der erro no jsonwebtoken:
+
+npm i jsonwebtoken
+npm install jsonwebtoken --save
+
