@@ -1,3 +1,7 @@
+# Geral de instalação de dependências:
+![MinionsGIF](https://user-images.githubusercontent.com/89320151/221033260-aa49bc4d-a43d-4902-a903-b3f3bc9e8dea.gif)
+
+
 # Criar o package.json:
 
 - npm init -y
@@ -41,11 +45,14 @@ yarn add @types/bcryptjs -D
 # Autenticando com JWT
 
 yarn add @types/jsonwebtoken -D
+
 yarn add dotenv
+
 OBS: AuthUserController = erro no process.env.JWT_SECRET, typescript não aceita quando deixa estrito p/ fazer tipagem. Pode-se se desabalitar no tsconfig mudando de true para false. ex: "strict": false.
 
-Caso der erro no jsonwebtoken:
+Caso der erro de não encontrado no jsonwebtoken:
 
 npm i jsonwebtoken
+
 npm install jsonwebtoken --save
 
